@@ -1,0 +1,121 @@
+#title{
+    background-image: url('./bgimg.jpg');
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center;   /* Centers the image */
+    background-size: 100% 100%;        /* Adjust this as needed */
+    
+}
+#title > p{
+    text-align: center;
+    
+}
+.ultra-regular {
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+    padding-top: 220px;
+    color:aliceblue
+    
+  }
+.normal{
+    font-family: 'Helvetica','serif';
+    font-weight: normal;
+    font-size: 40px;
+
+}
+.bh{
+    padding-top: 30px;
+    color:red;
+    padding-bottom: 160px;
+}
+.trophyimage{
+    position: absolute;
+    top: 180px;
+    left: 160px;
+}
+.dogimage{
+    border: none;;
+    border-radius: 50%;
+    margin-bottom: 15px;;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.spiderman {
+    position: absolute;
+    left:60px;
+    top:60px;
+    height: 150px;              
+  }
+
+.spiderman2{
+    position:absolute;
+    right:60px;
+    height: 150px;
+    top:360px;
+}
+.profilephoto{
+    margin-top: 60px;
+    height: 260px !important;
+    width:260px;
+    border-radius: 50% !important;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;   
+    align-items: center;
+    padding-bottom: 60px;
+    border: 1px bold black;
+    
+}
+.codingimg, .pizzaimg{
+    
+    height: 260px;
+    margin:40px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.skill1, .skill2{
+    display:flex;
+    justify-content: center;
+}
+.skill1 > p , .skill2 > p {
+    max-width: 720px;
+    text-align: justify;
+    margin-right: 20px;
+}
+@media (max-width: 600px) {
+    
+}
+.contactme{
+    height:600px;
+    background-image: url('./contactme.avif');
+    background-repeat: norepeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-top: 200px;
+}
+.contactbutton{
+    
+    margin-top: 10px;
+    color:blue;
+    border:none;
+    padding:10px;
+    border-radius: 10px;
+}
+.foot{
+    background-color: rgb(175, 235, 80);
+    display:flex;
+    
+    padding: 20px;
+}
+.e1{
+    margin-right:38%;
+}
+.e2, .e3, .e4 {
+    margin-right: 20px;
+}
